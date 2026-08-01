@@ -45,3 +45,23 @@ world-clock/
 ├── style.css      # Custom styles and responsive layouts
 ├── script.js      # Time logic and dynamic DOM rendering
 └── README.md      # Project documentation
+```
+---
+## ⚙️ Local Development Setup
+
+To run this project locally on your machine, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/vijaykumarwalikar/world-clock.git
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd world-clock
+
+3. **Open the application:**
+* Double-click index.html to open it directly in any web browser, or
+* Open the folder in VS Code and use the Live Server extension.
+---
+## 📄 License
+This project is open-source and available under the **[MIT License](https://opensource.org/license/mit)**.
