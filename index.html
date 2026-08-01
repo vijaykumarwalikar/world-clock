@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Clock Dashboard</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="icon-text-container">
+                <img src="./images/clock-icon.png" alt="Clock Icon" class="clock-icon">
+                <span class="text-label">World Clock</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="local-clock-container">
+            <div class="clock-local" id="local-clock">00:00:00</div>
+        </section>
+        
+        <section class="local-meta-info">
+            <div class="current-text" id="text-current">Local</div>
+            <div class="date" id="local-date">Thursday, Jan 01, 2026</div>
+            <div class="global-controls">
+                 <button class="toggle-button" id="format-toggle-btn">12h</button>
+            </div>            
+        </section>
+
+        <hr class="section-divider">
+
+        <section class="selector-container">
+            <div class="searchable-dropdown">
+                <input type="text" id="city-search-input" placeholder="Type to search city... (e.g., Tokyo, Kolkata)" class="search-timezone">
+                <div class="search-results-list" id="search-results-list"></div>
+            </div>
+        </section>
+
+        <section class="grid-container" id="world-clocks-container"></section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
