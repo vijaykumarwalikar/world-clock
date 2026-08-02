@@ -64,4 +64,5 @@ To run this project locally on your machine, follow these steps:
 * Open the folder in VS Code and use the Live Server extension.
 ---
 ## 📄 License
-This project is open-source and available under the **[MIT License](https://opensource.org/license/mit)**.
+This project is open-source and available under the **MIT License.**
+Use it however you want. Attribution is appreciated, not required.
