@@ -65,4 +65,5 @@ To run this project locally on your machine, follow these steps:
 ---
 ## 📄 License
 This project is open-source and available under the **MIT License.**
+
 Use it however you want. Attribution is appreciated, not required.
